@@ -10,3 +10,9 @@ console.log(boy)
 
 let house = "I own a modern house!"
 console.log(house)
+
+const news = Symbol("eating");
+const ned = Symbol("dinner");
+
+
+console.log(ned === news as any)

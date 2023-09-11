@@ -1,10 +1,14 @@
-var cat = "simba";
-var dog = "matata";
+"use strict";
+let cat = "simba";
+let dog = "matata";
 console.log(cat);
 console.log(dog);
 console.log(cat + " " + dog);
 console.log("cat" + "dog");
-var boy = 4567;
+let boy = 4567;
 console.log(boy);
-var house = "I own a modern house!";
+let house = "I own a modern house!";
 console.log(house);
+const news = Symbol("eating");
+const ned = Symbol("dinner");
+console.log(ned === news);
