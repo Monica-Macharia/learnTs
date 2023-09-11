@@ -1,0 +1,10 @@
+var cat = "simba";
+var dog = "matata";
+console.log(cat);
+console.log(dog);
+console.log(cat + " " + dog);
+console.log("cat" + "dog");
+var boy = 4567;
+console.log(boy);
+var house = "I own a modern house!";
+console.log(house);
